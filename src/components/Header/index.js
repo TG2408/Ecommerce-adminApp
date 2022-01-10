@@ -1,5 +1,6 @@
 import React from "react";
-import {Navbar, Nav, Container} from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { NavLink, Link } from "react-router-dom";
 
 const Header = (props) => {
     return (
@@ -19,7 +20,7 @@ const Header = (props) => {
                     </NavDropdown> */}
                 </Nav>
                 <Nav>
-                  <Nav.Link href="#deets">Signin</Nav.Link>
+                  {/* <Nav.Link href="#deets">Signin</Nav.Link> */}
                 </Nav>
               </Navbar.Collapse>
             </Container>
